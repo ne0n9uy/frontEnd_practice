@@ -1,0 +1,15 @@
+button{
+    width: 120px;
+    background-color: lightgreen;
+    border: none;
+    color: azure;
+    cursor: pointer;
+    padding: 10px 25px;
+}
+
+button:hover{
+    background-color: lightcoral;
+    color: navy;
+    transition: all 1s;
+    cursor: pointer; /*wait, crosshair, not-allowed, zoom, grab*/
+}
